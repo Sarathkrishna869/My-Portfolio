@@ -4,7 +4,7 @@ import ProjectInfo from './components/ProjectInfo';
 import './index.css';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/My-Portfolio'>
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/project/:id" element={<ProjectInfo />} />
