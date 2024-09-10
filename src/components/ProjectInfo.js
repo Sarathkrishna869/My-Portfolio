@@ -6,9 +6,10 @@ const ProjectInfo = () => {
   const projects = [
     {
       id: 1,
-      title: 'Project 1',
-      description: 'This is project 1',
-      technologies: ['React', 'JavaScript', 'HTML/CSS'],
+      title: 'My Portfolio',
+      description: 'Portfolio Project',
+      technologies: ['React', 'JavaScript', 'HTML/CSS','Tailwind CSS'],
+      link:'https://sarathkrishna869.github.io/My-Portfolio/',
     },
     {
       id: 2,
@@ -16,6 +17,11 @@ const ProjectInfo = () => {
       description: 'This is project 2',
       technologies: ['Node.js', 'Express', 'MongoDB'],
     },
+    {  id: 3,
+      title: 'Project 3',
+      description: 'This is project 2',
+      technologies: ['Node.js', 'Express', 'MongoDB'],
+    }
   ];
 
   const project = projects.find((p) => p.id === Number(projectId));
