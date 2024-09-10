@@ -42,6 +42,7 @@ const ProjectInfo = () => {
       <main className="container mx-auto p-6">
         <h2 className="text-2xl font-bold mb-4">{project?.title}</h2>
         <p className="text-gray-400">{project?.description}</p>
+        <a href={project?.link}></a>
         <ul>
           {project?.technologies.map((tech) => (
             <li key={tech} className="text-gray-400">{tech}</li>
