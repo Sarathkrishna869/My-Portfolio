@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sarathkrishna869.github.io/My-Portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +45,5 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.10"
-  },
-  "homepage": "https://sarathkrishna869.github.io/My-Portfolio"
+  }
 }
