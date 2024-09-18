@@ -49,7 +49,7 @@ const Portfolio = () => {
         <section id="about" className="mb-12">
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <p className="text-gray-400">
-            I am a software engineer with a passion for building innovative applications.
+          I am a BTech graduate in Computer Science and Engineering, currently working as a Manual Tester at DataDevice. I have experience in manual testing, business analysis, and data-driven decision-making, with a focus on simplifying processes and delivering customer-centric solutions. I’m passionate about exploring high-demand fields, combining creativity and strategy to drive success. Open to opportunities in digital communication, product management, and operations, I aim to contribute to global business growth. Let’s connect and collaborate!
           </p>
         </section>
         <section id="projects" className="mb-12">

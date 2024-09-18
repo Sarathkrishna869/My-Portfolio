@@ -42,12 +42,13 @@ const ProjectInfo = () => {
       <main className="container mx-auto p-6">
         <h2 className="text-2xl font-bold mb-4">{project?.title}</h2>
         <p className="text-gray-400">{project?.description}</p>
-        <a className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded" href={project?.link}>Project Website</a>
         <ul>
           {project?.technologies.map((tech) => (
             <li key={tech} className="text-gray-400">{tech}</li>
           ))}
         </ul>
+        <br></br>
+        <a className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded" href={project?.link}>Project Website</a>
       </main>
     </div>
   );
